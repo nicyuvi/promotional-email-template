@@ -7,10 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Promotional Email Template</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <style type="text/css">
+    html {
+      font-size: 10px;
+    }
     body {
       Margin: 0;
       padding: 0;
+      background-color: #f6f9fc;
     }
 
     table {
@@ -24,6 +30,32 @@
     img {
       border: 0;
     }
+    .brand{
+      font-family: 'Lobster', cursive;
+      text-decoration: none;
+      color: #f6f6f6;
+      font-size: 6rem;
+    }
+    .wrapper{
+      width: 100%;
+      table-layout: fixed;
+      background-color: #f6f9fc;
+      padding-bottom: 40px;
+    }
+    .webkit{
+      max-width: 600px;  
+      background-color: #ffffff;
+      margin: auto;
+    }
+    .outer {
+      /* capital M for outlook compatibility */
+      Margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      border-spacing: 0;
+      font-family: sans-serif;
+      color: #4a4a4a;
+    }
 
     @media screen and (max-width: 600px) {}
 
@@ -32,7 +64,30 @@
 </head>
 
 <body>
-  <h1>hello world</h1>  
+  <div class="wrapper">
+    <div class="webkit">
+
+      <table class="outer">
+        
+        <tr>
+          <td>
+            <table width='100%'>
+              <tr>
+                <td style="background-color:#388CDA;padding:15px;text-align:center;">
+                  <a class="brand" href="#" title="furniture plus">
+                    furniture plus+
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+      </table>
+
+
+    </div>
+  </div>  
 </body>
 
 </html>
