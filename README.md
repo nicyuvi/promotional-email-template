@@ -24,10 +24,12 @@ Be sure to inline your CSS and send a test email to yourself before sending. Inl
 
 This email template is responsive for both mobile and desktop view.
 
-Mobile:
+Mobile: 
+
 ![mobile view screenshot](https://i.ibb.co/nzR19yX/Screenshot-2021-06-09-at-01-02-34-Promotional-Email-Template.png)
 
 Desktop:
+
 ![desktop view screenshot](https://i.ibb.co/Z2x9NH8/Screenshot-2021-06-09-at-01-01-33-Promotional-Email-Template.png)
 
 ### Cross email client support in images
