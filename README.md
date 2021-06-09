@@ -2,6 +2,8 @@
 
 This is an HTML email template for promotional campaigns, built with HTML and CSS.
 
+View Live Demo [HERE](https://promotional-email-template.netlify.app/).
+
 ## What I learned
 
 In this project, I learned:
@@ -24,7 +26,7 @@ Be sure to inline your CSS and send a test email to yourself before sending. Inl
 
 This email template is responsive for both mobile and desktop view.
 
-Mobile: 
+Mobile:
 
 ![mobile view screenshot](https://i.ibb.co/nzR19yX/Screenshot-2021-06-09-at-01-02-34-Promotional-Email-Template.png)
 
