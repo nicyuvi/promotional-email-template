@@ -38,8 +38,6 @@
       .brand{
         font-family: 'Lobster', cursive;
         text-decoration: none;
-        color: #f6f6f6;
-        font-size: 6rem;
       }
       .wrapper{
         width: 100%;
@@ -85,9 +83,23 @@
         font-size: 15px;
         line-height: 20px;
       }
-      @media screen and (max-width: 600px) {}
+      @media screen and (max-width: 600px) {
+        img.product-three {
+          width: 200px !important; 
+          max-width: 200px !important;
+        }
+      }
 
-      @media screen and (max-width: 400px) {}
+      @media screen and (max-width: 400px) {
+        img.product-one {
+          width: 200px !important; 
+          max-width: 200px !important;
+        }
+        img.product-two {
+          width: 200px !important; 
+          max-width: 200px !important;
+        }
+      }
     </style>
   </head>
 
@@ -101,7 +113,7 @@
               <table width="100%">
                 <tr>
                   <td style="background-color:#388CDA;padding:15px;text-align:center;">
-                    <a class="brand" href="#" title="furniture plus">
+                    <a style="font-size:6rem;color:#f6f6f6" class="brand" href="#" title="furniture plus">
                       furniture plus+
                     </a>
                   </td>
@@ -127,7 +139,7 @@
                           <table class="content">
                             <tr>
                               <td>
-                                <a href="#"><img src="./assets/product1-400x400.jpg" alt="yellow couch" width="150px" style="max-width:150px;"></a>
+                                <a href="#"><img class="product-one" src="./assets/product1-400x400.jpg" alt="yellow couch" width="150" style="max-width:150px;"></a>
                               </td>
                             </tr>
                             <tr>
@@ -149,7 +161,7 @@
                           <table class="content">
                             <tr>
                               <td>
-                                <a href="#"><img src="./assets/product2-400x400.jpg" alt="yellow couch" width="150px" style="max-width:150px;"></a>
+                                <a href="#"><img class="product-two" src="./assets/product2-400x400.jpg" alt="yellow couch" width="150" style="max-width:150px;"></a>
                               </td>
                             </tr>
                             <tr>
@@ -171,7 +183,7 @@
                           <table class="content">
                             <tr>
                               <td>
-                                <a href="#"><img src="./assets/product3-400x400.jpg" alt="yellow couch" width="150px" style="max-width:150px;"></a>
+                                <a href="#"><img class="product-three" src="./assets/product3-400x400.jpg" alt="yellow couch" width="150" style="max-width:150px;"></a>
                               </td>
                             </tr>
                             <tr>
@@ -208,7 +220,32 @@
               </table>
             </td>
           </tr>
+          <!-- footer section -->
+          <tr>
+            <td style="background-color:#efefef;">
+              <table width="100%">
 
+                <tr>
+                  <td style="padding:20px;padding-bottom:10px;text-align:center;">
+                    
+                    <a style="font-size: 3rem;" class="brand" href="#" title="furniture plus">furniture plus+</a>
+                    <p style="font-size:16px;Margin-top:18px">furniture plus+ HTML Email</p>
+                    <p style="font-size:16px;Margin-top:18px">123 Street Ave. City, State 12345</p>
+                    <p><a href="mailto:email@example.com">email@example.com</a></p>
+                    <p><a href="tel:18008888888">1-800-888-8888</a></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-bottom:20px;text-align:center;">
+                    <p><a href="#" style="font-size:13px;">UNSUBSCRIBE</a></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="20" style="background-color:#388CDA;"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
         </table>
       </div>
     </div>  
