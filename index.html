@@ -30,6 +30,11 @@
       img {
         border: 0;
       }
+      a {
+        text-decoration: none;
+        color: #388CDA;
+        font-size: 16px;
+      }
       .brand{
         font-family: 'Lobster', cursive;
         text-decoration: none;
@@ -56,7 +61,29 @@
         font-family: sans-serif;
         color: #4a4a4a;
       }
-
+      .three-columns {
+        text-align: center;
+        /* outlook compatibility */
+        font-size: 0;
+        line-height: 0;
+        padding-top: 40px;
+        padding-bottom: 30px;
+      }
+      .three-columns .column { 
+        width: 100%;
+        max-width: 200px;
+        /* tables align next to each other */
+        display: inline-block;
+        vertical-align: top;
+      }
+      .padding {
+        /* for outlook we would add padding-top, padding-bottom, etc... */
+        padding: 15px;
+      }
+      .three-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+      }
       @media screen and (max-width: 600px) {}
 
       @media screen and (max-width: 400px) {}
@@ -70,7 +97,7 @@
           <!-- brand banner -->
           <tr>
             <td>
-              <table width='100%'>
+              <table width="100%">
                 <tr>
                   <td style="background-color:#388CDA;padding:15px;text-align:center;">
                     <a class="brand" href="#" title="furniture plus">
@@ -83,15 +110,86 @@
           </tr>
           <!-- hero section  -->
           <tr>
-            <td><a href="#" title="check out new products"><img src="./assets/hero-1200x675.jpg" alt="check out new products" width="600px"></a></td>
+            <td><a href="#" title="check out new products"><img src="./assets/hero-1200x675.jpg" alt="check out new products" width="600px" style="max-width:100%;"></a></td>
           </tr>
           <!-- products section -->
           <tr>
             <td>
-              <table></table>
+              <table width="100%">
+                <tr>
+                  <td class="three-columns">
+                    <!-- product column -->
+                    <table class="column">
+                      <tr>
+                        <td class="padding">
+
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <a href="#"><img src="./assets/product1-400x400.jpg" alt="yellow couch" width="150px" style="max-width:150px;"></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:10px">
+                                <p style="font-size: 17px;font-weight:bold;">YELLOW COUCH</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis deserunt explicabo alias? Repudiandae, ipsam modi!</p>
+                                <a href="#">Learn more...</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- product column -->
+                    <table class="column">
+                      <tr>
+                        <td class="padding">
+
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <a href="#"><img src="./assets/product2-400x400.jpg" alt="yellow couch" width="150px" style="max-width:150px;"></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:10px">
+                                <p style="font-size: 17px;font-weight:bold;">GREEN COUCH</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis deserunt explicabo alias? Repudiandae, ipsam modi!</p>
+                                <a href="#">Learn more...</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- product column -->
+                    <table class="column">
+                      <tr>
+                        <td class="padding">
+
+                          <table class="content">
+                            <tr>
+                              <td>
+                                <a href="#"><img src="./assets/product3-400x400.jpg" alt="yellow couch" width="150px" style="max-width:150px;"></a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="padding:10px">
+                                <p style="font-size: 17px;font-weight:bold;">ORANGE COUCH</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis deserunt explicabo alias? Repudiandae, ipsam modi!</p>
+                                <a href="#">Learn more...</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
-
         </table>
       </div>
     </div>  
